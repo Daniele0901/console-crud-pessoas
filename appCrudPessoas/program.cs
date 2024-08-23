@@ -6,10 +6,7 @@ namespace appCrudPessoas
     internal class program
     {
         private static string connectionString = "Server=sql10.freesqldatabase.com;Database=sql10727350;Uid=sql10727350;Pwd=3y6BlDigUL;";
-        private static List<Pessoas> pessoas = new List<Pessoas>();
-        private static int proximoId = 1;
-
-        static void Main(string[] args)
+       static void Main(string[] args)
         {
 
             while (true)
